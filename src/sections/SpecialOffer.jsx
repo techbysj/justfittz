@@ -20,7 +20,7 @@ const SpecialOffer = () => {
           Offer
         </h2>
         <p className="mt-4 info-text">
-          Embark on a shopping journey that redefines your experience with
+          Embark on your shopping journey that redefines your experience with
           unbeatable deals. From premier selections to incredible savings, we
           offer unparalleled value that sets us apart.
         </p>
