@@ -27,7 +27,7 @@ const SpecialOffer = () => {
         <p className="mt-6 info-text">
           Navigate a realm of possibilities designed to fulfill your unique
           desires, surpassing the loftiests expectations. Your journey with us is
-          nothing short of exceptional.
+          nothing short of exceptionals.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
           <Button label="Shop now" iconURL={arrowRight} />
