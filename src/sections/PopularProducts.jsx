@@ -10,7 +10,7 @@ const PopularProducts = () => {
         </h2>
         <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
           Experience top-notchs quality and styles with our sought-after
-          selection. Discover a world of comforts, design, and value
+          selection. Discover a worldof comforts, design, and value
         </p>
       </div>
 
