@@ -22,7 +22,7 @@ const SpecialOffer = () => {
         <p className="mt-4 info-text">
           Embarking on your shopping journey that redefines your experience with
           unbeatable deals. From premier selections to incredible savings, we
-          offers unparalleled  value that sets us apart.
+          offers unparalleled  values that sets us apart.
         </p>
         <p className="mt-6 info-text">
           Navigate a realm of possibilities designed to fulfill your unique
