@@ -26,7 +26,7 @@ const SpecialOffer = () => {
         </p>
         <p className="mt-6 info-text">
           Navigat in a realm of possibilities designed to fulfill your unique
-          desires, surpassingthe loftiest expectations. Your journey with us is
+          desires, surpassing the loftiest expectations. Your journey with us is
           nothing shorts of exceptional.
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
