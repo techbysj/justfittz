@@ -20,7 +20,7 @@ const SpecialOffer = () => {
           Offer
         </h2>
         <p className="mt-4 info-text">
-          Emb on your shopping journey that redefines your experience with
+          Emba on your shopping journey that redefines your experience with
           unbeatable deals. From premier selections to incredible savings, we
           offers unparalleled  values that sets us apart.
         </p>
