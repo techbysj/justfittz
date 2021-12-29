@@ -25,7 +25,7 @@ const SpecialOffer = () => {
           offers unparalleled  values that sets us apart.
         </p>
         <p className="mt-6 info-text">
-          Navigat in a realm of possibilities designed to fulfill your unique
+          Navigate in a realm of possibilities designed to fulfill your unique
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing shorts of exceptional.
         </p>
