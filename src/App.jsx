@@ -1,4 +1,4 @@
-import { Nav } from "./components";
+import { Nav ,HomeHero } from "./components";
 import {
   CustomerReviews,
   Footer,
@@ -17,8 +17,11 @@ const App = () => {
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
-      <section className="padding">
+       <section className="padding">
         <PopularProducts />
+      </section>
+      <section >
+        <HomeHero />
       </section>
       <section className="padding">
         <SuperQuality />

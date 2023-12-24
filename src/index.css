@@ -60,3 +60,14 @@
     @apply opacity-90 transition-all duration-150 ease-in;
   }
 }
+.px-4{
+ background-color: darkgray;
+}
+.bg-black {
+  background-color: rgb(46, 46, 46);
+}
+
+.firstPic{
+  background-color: black;
+  width: 100%;
+}

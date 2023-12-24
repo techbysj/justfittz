@@ -1,12 +1,12 @@
 import bigShoe1 from './big-shoe1.png'
 import bigShoe2 from './big-shoe2.png'
-import bigShoe3 from './big-shoe3.png'
+import bigShoe3 from './hero-img.png'
 
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
 
-import footerLogo from './footer-logo.svg'
-import headerLogo from './header-logo.svg'
+import footerLogo from './logo-home.png'
+import headerLogo from './logo-home.png'
 
 import offer from './offer.svg'
 
