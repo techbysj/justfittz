@@ -1,4 +1,4 @@
-import { Nav ,HomeHero ,VideoBg } from "../components";
+import { Nav ,HomeHero ,VideoBg ,YourScroll } from "../components";
 import {
   CustomerReviews,
   Footer,
@@ -14,6 +14,10 @@ const Home = () => {
   return (
     <main className="relative">
       <Nav />
+      <section className=''>
+        <YourScroll />
+      </section>
+
       <section className='videobgw'>
         <VideoBg />
       </section>

@@ -49,7 +49,7 @@ const Nav = () => {
 
   return (
     <header
-      className={`px-4 py-3 bg-gray-800 text-white sticky top-0 z-50 ${
+      className={`px-4 py-3 bg-gray-800 text-black sticky top-0 z-50 ${
         isScrolled ? "scrolled" : ""
       }`}
     >
@@ -62,7 +62,7 @@ const Nav = () => {
             <li key={item.label}>
               <Link
                 to={item.href}
-                className="hover:text-blue-500 transition duration-300"
+                className="hover:text-red-500 transition duration-300"
               >
                 {item.label}
               </Link>
@@ -82,7 +82,7 @@ const Nav = () => {
           <>
             <div className="hidden lg:flex space-x-4 items-center">
               <button
-                className="text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded"
+                className="text-black bg-blue-500 hover:bg-red-100 px-4 py-2 rounded"
                 onClick={openModal}
               >
                 Sign in

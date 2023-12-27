@@ -9,6 +9,7 @@ const VideoBg = () => {
           <div className="contentvideo">
             <h1>We Are A Sports Brand</h1>
             <p>Mlimani City | Dar Es Salaam City | Magomeni City | Mombasa City</p>
+            <button className="shop-now-btn">SHOP NOW</button>
           </div>
           </div>
     )

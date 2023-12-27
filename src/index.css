@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-
+@import url("@fontsource/league-spartan");
+@import url("@fontsource/poppins");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Poppins";  /* font-size: large; */
 }
 
 @layer components {
@@ -61,7 +63,7 @@
   }
 }
 .px-4{
- background-color: darkgray;
+ background-color: rgba(169, 169, 169, 0.095);
 }
 .bg-black {
   background-color: rgb(46, 46, 46);
@@ -99,7 +101,7 @@
   /* justify-content: center; */
   align-items: center;
   color: rgb(255, 255, 255);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Poppins';
 }
 .contentvideo h1{
   font-size: 4em;
@@ -115,6 +117,24 @@
   height: 100%;
   background-color: rgba(0,0,0,.3);
 }
+/* Add this to your existing CSS or create a new stylesheet */
+.shop-now-btn {
+  display: inline-block;
+  padding: 13px 50px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.shop-now-btn:hover {
+  background-color: black;
+  color: white;
+}
+
 
 /* Common styles for all screen sizes go here */
 
@@ -148,4 +168,33 @@
 /* Large Laptops and Desktops */
 @media only screen and (min-width: 1280px) {
   /* Your styles for large laptops and desktops go here */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  height: 40px; /* Set the desired height */
+  background-color: yellow; /* Yellow background */
+  width: 100%;
+}
+
+.scroll-text {
+  position:absolute;
+  display: block;
+  white-space: nowrap;
+  color: black; /* Black text color */
+  animation: scroll 20s linear infinite;
+  /* font-style: Spartan; */
+  font-family: "Poppins";
+  font-size: 25px;
+  width: 100%;
 }
