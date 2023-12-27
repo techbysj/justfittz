@@ -3,6 +3,7 @@ import { hamburger } from "../assets/icons";
 import { headerLogo } from "../assets/images";
 import { navLinks } from "../constants";
 import SignInSignUpModal from "./SignInSignUp";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -53,18 +54,18 @@ const Nav = () => {
       }`}
     >
       <div className="flex items-center justify-between max-w-6xl mx-auto">
-        <a href="/" className="text-2xl font-semibold">
+        <Link to="/" className="text-2xl font-semibold">
           <img src={headerLogo} alt="logo" className="w-32" />
-        </a>
+        </Link>
         <ul className="hidden space-x-6 lg:flex">
           {navLinks.map((item) => (
             <li key={item.label}>
-              <a
-                href={item.href}
+              <Link
+                to={item.href}
                 className="hover:text-blue-500 transition duration-300"
               >
                 {item.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

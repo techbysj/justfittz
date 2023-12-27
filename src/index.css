@@ -71,3 +71,81 @@
   background-color: black;
   width: 100%;
 }
+
+
+
+.videobgw{
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+/* Additional styling for removing any potential default margins/paddings on the video container */
+.videobgw video {
+  display: block;
+  width: 100%;
+  /* height: 100%; */
+  object-fit: contain;
+}
+
+.contentvideo{
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contentvideo h1{
+  font-size: 4em;
+}
+.contentvideo p{
+  font-size: 1.8em;
+}
+.videobg .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.3);
+}
+
+/* Common styles for all screen sizes go here */
+
+/* Mobile Phones */
+@media only screen and (max-width: 767px) {
+  /* Your mobile styles go here */
+  body{
+    font-size: 12px;
+  }
+  .contentvideo h1{
+    font-size: 2.5em;
+  }
+  .contentvideo p{
+    font-size: 1em;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Your tablet styles go here */
+  .contentvideo p{
+    font-size: 1.4em;
+  }
+}
+
+/* Small Laptops and Desktops */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  /* Your styles for small laptops and desktops go here */
+}
+
+/* Large Laptops and Desktops */
+@media only screen and (min-width: 1280px) {
+  /* Your styles for large laptops and desktops go here */
+}

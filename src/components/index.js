@@ -5,5 +5,6 @@ import PopularProductCard from "./PopularProductCard";
 import ServiceCard from "./ServiceCard";
 import ReviewCard from "./ReviewCard";
 import HomeHero from "./homehero";
+import VideoBg from './video'
 
-export { Button, Nav, ShoeCard, PopularProductCard, ServiceCard, ReviewCard , HomeHero };
+export { Button, Nav, ShoeCard, PopularProductCard, ServiceCard, ReviewCard , HomeHero ,VideoBg };

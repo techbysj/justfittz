@@ -1,48 +1,24 @@
-import { Nav ,HomeHero } from "./components";
-import {
-  CustomerReviews,
-  Footer,
-  Hero,
-  PopularProducts,
-  Services,
-  SpecialOffer,
-  Subscribe,
-  SuperQuality,
-} from "./sections";
+import React from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Home, AboutUs, ContactUs, Products } from './pages';
+// Define the different routes for your app
+// const Home = () => <h2>Home</h2>;
+// const About = () => <h2>About</h2>;
+const NotFound = () => <div className='flex flex-col justify-center items-center gap-8 h-screen'><h1 className='text-center text-red-400 font-extrabold text-8xl'>404</h1><h2>Requested Page Not Found</h2></div>;
 
-const App = () => {
-  return (
-    <main className="relative">
-      <Nav />
-      <section className="xl:padding-l wide:padding-r padding-b">
-        <Hero />
-      </section>
-       <section className="padding">
-        <PopularProducts />
-      </section>
-      <section >
-        <HomeHero />
-      </section>
-      <section className="padding">
-        <SuperQuality />
-      </section>
-      <section className="padding-x py-10">
-        <Services />
-      </section>
-      <section className="padding">
-        <SpecialOffer />
-      </section>
-      <section className="bg-pale-blue padding">
-        <CustomerReviews />
-      </section>
-      <section className="padding-x sm:py-32 py-16 w-full">
-        <Subscribe />
-      </section>
-      <section className=" bg-black padding-x padding-t pb-8">
-        <Footer />
-      </section>
-    </main>
-  );
-};
+// Render the Navigation config using the Router, Route, and Link components
+function App() {
+ return (
+    <div className="">
+    <Routes>
+      <Route path="/" element={ <Home/> } />
+      <Route path="/about-us" element={ <AboutUs/> } />
+      <Route path="/products" element={<Products/>} />
+      <Route path='/contact-us' element={< ContactUs/>} />
+      <Route path="/*" element={ <NotFound/> } />
+    </Routes>
+  </div>
+ );
+}
 
 export default App;
