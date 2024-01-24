@@ -1,6 +1,6 @@
 
 ```markdown
-# Nike Store App
+# Justfittz Store
 
 ## Project Setup
 
@@ -17,7 +17,7 @@ To set up the project, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd nike-store-app
+   cd Justfittz 
    ```
 
 3. Install the project dependencies:
@@ -34,12 +34,12 @@ To set up the project, follow these steps:
 
 ## About
 
-This project is a fully responsive Nike fake store app, beautifully styled with Tailwind CSS. It provides a user-friendly interface for browsing Nike products and includes basic sign-up and sign-in functionality using local storage.
+This project is a fully responsive Nike fake store app, beautifully styled with Tailwind CSS. It provides a user-friendly interface for browsing Sports products and includes basic sign-up and sign-in functionality using local storage.
 
 ## Features
 
 - Stunning and responsive user interface crafted with Tailwind CSS.
-- Browse and view Nike products.
+- Browse and view Sports products.
 - Basic sign-up and sign-in functionality using local storage for user authentication.
 
 ## Technologies Used
@@ -47,19 +47,6 @@ This project is a fully responsive Nike fake store app, beautifully styled with 
 - Vite.js
 - React.js
 - Tailwind CSS
-
-## Preview
-
-You can access the live project [here]([https://nike-store-app-omega.vercel.app/](https://fittz-ci228xwwm-jsabood19-gmailcom.vercel.app)).
-
-
-## Usage
-
-To use the Nike Store App, follow these steps:
-
-1. Open the app in your web browser by clicking on the [live project link]([https://nike-store-app-omega.vercel.app/](https://fittz-ci228xwwm-jsabood19-gmailcom.vercel.app)).
-
-2. Browse the Nike products available in the store.
 
 3. Sign up for an account using the "Sign Up" feature.
 
