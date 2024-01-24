@@ -7,5 +7,9 @@ import ReviewCard from "./ReviewCard";
 import HomeHero from "./homehero";
 import VideoBg from './video';
 import YourScroll from './Scroll'
+import SportsNavBar from './CategoriesNav'
+import SquareBanners from './SquareBanners'
+import RectangularBanners from './RectangularBanner'
+import ImageCarousel from "./ImageCarousel";
 
-export { Button, Nav, ShoeCard, PopularProductCard, ServiceCard, ReviewCard , HomeHero ,VideoBg ,YourScroll };
+export { Button, Nav, ShoeCard, PopularProductCard, ServiceCard, ReviewCard , HomeHero ,VideoBg ,YourScroll , SportsNavBar , SquareBanners ,RectangularBanners , ImageCarousel };

@@ -22,11 +22,248 @@ import {
 } from "../assets/images";
 
 export const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/about-us", label: "About Us" },
-  { href: "/products", label: "Products" },
-  { href: "/contact-us", label: "Contact Us" },
+  {
+    href: "/mens",
+    label: "Mens",
+    subcategories: [
+      {
+        label: "Footwear",
+        items: [
+          "Sports Footwear",
+          "Trainers",
+          "Football Boots",
+          "Running Shoes",
+          "Football Boot Finder",
+          "Running Shoe Finder",
+          "Fitness Trainers",
+          "Tennis Shoes",
+          "Basketball Shoes",
+          
+        ],
+      },
+      {
+        label: "Popular Trainer Brands",
+        items: ["Adidas", "Nike", "PUMA"],
+      },
+      {
+        label: "Fashion Footwear",
+        items: [
+          "Trainers",
+          "Canvas Shoes",
+          "Hi Tops",
+          "Crocs",
+          "Boots",
+          "Shoes",
+          "Safety Boots and Shoes",
+          "Wellies",
+          "Sandals",
+          "Sliders and Flip Flops",
+        ],
+      },
+      {
+        label: "Clothing",
+        items: [
+          "T-Shirts and Shirts",
+          "Polo Shirts",
+          "Shirts",
+          "T-Shirts",
+          "Vests",
+          "Shorts and Trousers",
+          "Cargo Trousers",
+          "Jeans",
+          "Joggers",
+          "Shorts",
+          "Swim Shorts",
+          "Tracksuits",
+          "Tracksuit Bottoms",
+          "Trousers",
+          "Leggings and Tights",
+        ],
+      },
+      // Add more subcategories as needed
+    ],
+    popularBrands: ["Nike", "Adidas", "Puma", "Under Armour", "New Balance"],
+  },
+  {
+    href: "/womens",
+    label: "Womens",
+    subcategories: [
+      {
+        label: "Footwear",
+        items: [
+          "Sports Footwear",
+          "Trainers",
+          "Running Shoes",
+          "Fitness Trainers",
+          "Tennis Shoes",
+          "Basketball Shoes",
+          "Fashion Footwear",
+          "Trainers",
+          "Canvas Shoes",
+          "Hi Tops",
+          "Boots",
+          "Shoes",
+          "Sandals",
+          "Sliders and Flip Flops",
+        ],
+      },
+      {
+        label: "Clothing",
+        items: [
+          "T-Shirts and Shirts",
+          "Tops",
+          "Dresses",
+          "Shorts and Trousers",
+          "Leggings and Tights",
+          "Outerwear",
+          "Hoodies",
+          "Jackets and Coats",
+          "Knitwear",
+          "Sweatshirts",
+        ],
+      },
+      {
+        label: "Accessories",
+        items: [
+          "Caps and Hats",
+          "Womens Watches",
+          "Gloves",
+          "Insoles, Shoe Care and Laces",
+          "Backpacks and Rucksacks",
+          "Bum Bags",
+          "Handbags",
+          "Socks",
+          "Belts",
+          "Scarves",
+        ],
+      },
+      // Add more subcategories as needed
+    ],
+    popularBrands: ["Nike", "Adidas", "Puma", "Under Armour", "New Balance"],
+  },
+  {
+    href: "/kids",
+    label: "Kids",
+    subcategories: [
+      {
+        label: "Footwear",
+        items: [
+          "Sports Footwear",
+          "Trainers",
+          "Running Shoes",
+          "Sandals",
+          "School Shoes",
+          "Wellies",
+          "Slippers",
+        ],
+      },
+      {
+        label: "Clothing",
+        items: [
+          "T-Shirts and Shirts",
+          "Hoodies",
+          "Jackets and Coats",
+          "Shorts and Trousers",
+          "Tracksuits",
+          "Sportswear",
+        ],
+      },
+      {
+        label: "Accessories",
+        items: [
+          "Caps and Hats",
+          "Watches",
+          "Gloves",
+          "Socks",
+          "Backpacks",
+          "Lunch Bags",
+        ],
+      },
+      // Add more subcategories as needed
+    ],
+    popularBrands: ["Nike", "Adidas", "Puma", "Under Armour", "New Balance"],
+  },
+  {
+    href: "/accessories",
+    label: "Accessories",
+    subcategories: [
+      {
+        label: "Hats and Headwear",
+        items: ["Caps and Hats", "Mens Watches", "Gloves"],
+      },
+      {
+        label: "Shoe Accessories",
+        items: [
+          "Insoles, Shoe Care and Laces",
+          "Shoe Accessories",
+          "Shoe Insoles",
+          "Shoe Care",
+          "Shoe Laces",
+        ],
+      },
+      {
+        label: "Bags",
+        items: [
+          "Backpacks and Rucksacks",
+          "Bum Bags",
+          "Holdall and Duffle Bags",
+          "Gym Bags and Sacks",
+        ],
+      },
+      {
+        label: "Training and Gym",
+        items: [
+          "Training and Gym Equipment",
+          "Water Bottles and Hydration",
+          "Belts",
+        ],
+      },
+      {
+        label: "Gifts",
+        items: ["Wallets"],
+      },
+      // Add more subcategories as needed
+    ],
+    popularBrands: ["Ray-Ban", "Rolex", "Casio", "Oakley", "Fossil"],
+  },
+  {
+    href: "/equipments",
+    label: "Equipments",
+    subcategories: [
+      {
+        label: "Fitness Equipment",
+        items: ["Home Gym", "Cardio Equipment", "Strength Training"],
+      },
+      {
+        label: "Outdoor Gear",
+        items: ["Camping and Hiking", "Cycling", "Fishing"],
+      },
+      {
+        label: "Sports Gear",
+        items: ["Football", "Basketball", "Tennis"],
+      },
+      // Add more subcategories as needed
+    ],
+    popularBrands: ["Gymshark", "The North Face", "Wilson", "Easton", "Everlast"],
+  },
+  {
+    href: "/brands",
+    label: "Brands",
+    subcategories: [
+      {
+        label: "Sports Brands",
+        items: ["Nike", "Adidas", "Puma", "Under Armour", "New Balance"],
+      },
+      {
+        label: "Fashion Brands",
+        items: ["Gucci", "Prada", "Versace", "Chanel", "Dior"],
+      },
+      // Add more subcategories as needed
+    ],
+    popularBrands: [],
+  },
 ];
+
 
 export const shoes = [
   {

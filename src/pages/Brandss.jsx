@@ -2,12 +2,11 @@ import React from 'react'
 import { Nav } from '../components'
 import { Subscribe , Footer } from '../sections'
 
-
-export default function Products() {
+export default function Brands() {
   return (
     <main className="relative">
     <Nav />
-    <Hero />
+   
     <section className="padding-x sm:py-32 py-16 w-full">
       <Subscribe />
     </section>

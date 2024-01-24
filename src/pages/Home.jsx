@@ -1,4 +1,4 @@
-import { Nav ,HomeHero ,VideoBg ,YourScroll } from "../components";
+import { Nav ,HomeHero ,VideoBg ,YourScroll, SportsNavBar , SquareBanners , RectangularBanners, ImageCarousel } from "../components";
 import {
   CustomerReviews,
   Footer,
@@ -14,6 +14,7 @@ const Home = () => {
   return (
     <main className="relative">
       <Nav />
+      <SportsNavBar />
       <section className=''>
         <YourScroll />
       </section>
@@ -21,17 +22,16 @@ const Home = () => {
       <section className='videobgw'>
         <VideoBg />
       </section>
-      <section className="xl:padding-l wide:padding-r padding-b">
-        <Hero />
+      <ImageCarousel />
+      <RectangularBanners />
+      <section className="">
+      <SquareBanners />
       </section>
-       <section className="padding">
+      <section className="padding">
         <PopularProducts />
       </section>
       <section >
         <HomeHero />
-      </section>
-      <section className="padding">
-        <SuperQuality />
       </section>
       <section className="padding-x py-10">
         <Services />
@@ -39,9 +39,7 @@ const Home = () => {
       <section className="padding">
         <SpecialOffer />
       </section>
-      <section className="bg-pale-blue padding">
-        <CustomerReviews />
-      </section>
+      
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
       </section>
