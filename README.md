@@ -11,7 +11,7 @@ To set up the project, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/nike-store-app.git
+   git clone ----this repo
    ```
 
 2. Navigate to the project directory:
@@ -50,22 +50,14 @@ This project is a fully responsive Nike fake store app, beautifully styled with 
 
 ## Preview
 
-You can access the live project [here](https://nike-store-app-omega.vercel.app/).
+You can access the live project [here]([https://nike-store-app-omega.vercel.app/](https://fittz-ci228xwwm-jsabood19-gmailcom.vercel.app)).
 
-## Screenshots
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/ChandanSahu98/nikeStoreApp/assets/52382395/ff8384e6-f6c5-44f8-a95d-83881b20f0cb" alt="Screenshot 1" width="400" />
-  <img src="https://github.com/ChandanSahu98/nikeStoreApp/assets/52382395/51339300-626b-4541-ac4f-dd175a94bea7" alt="Screenshot 1" width="400" />
-  <img src="https://github.com/ChandanSahu98/nikeStoreApp/assets/52382395/c75e885c-419a-4d34-81ca-01eb5740eae8" alt="Screenshot 2" width="400" />
-  <img src="https://github.com/ChandanSahu98/nikeStoreApp/assets/52382395/391128af-1559-44e9-a120-28badc1ca72f" alt="Screenshot 2" width="400" />
-</div>
 
 ## Usage
 
 To use the Nike Store App, follow these steps:
 
-1. Open the app in your web browser by clicking on the [live project link](https://nike-store-app-omega.vercel.app/).
+1. Open the app in your web browser by clicking on the [live project link]([https://nike-store-app-omega.vercel.app/](https://fittz-ci228xwwm-jsabood19-gmailcom.vercel.app)).
 
 2. Browse the Nike products available in the store.
 
