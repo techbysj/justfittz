@@ -21,6 +21,7 @@ import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 import video from './123.mp4'
+import shoppic from './123.jpg'
 
 
 export {
@@ -45,5 +46,6 @@ export {
     thumbnailShoe1,
     thumbnailShoe2,
     thumbnailShoe3,
-    video
+    video,
+    shoppic
 }

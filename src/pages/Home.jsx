@@ -30,17 +30,13 @@ const Home = () => {
       <section className="padding">
         <PopularProducts />
       </section>
-      <section >
-        <HomeHero />
-      </section>
       <section className="padding-x py-10">
         <Services />
       </section>
-      <section className="padding">
-        <SpecialOffer />
+      <section >
+        <HomeHero />
       </section>
-      
-      <section className="padding-x sm:py-32 py-16 w-full">
+      <section className="padding-x sm:py-32 py-16 w-full h-13 ">
         <Subscribe />
       </section>
       <section className=" bg-black padding-x padding-t pb-8">

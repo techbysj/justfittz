@@ -192,16 +192,11 @@ return (
                 >
                   Skechers
                 </p>
+
   </div>
 )}
 
         </div>
-
-
-
-
-
-
 
 
         {/* End of search bar */}
@@ -214,10 +209,10 @@ return (
 
     {/* Dropdown Content */}
     {item.subcategories && (
-      <div className="absolute-dropdown bg-white border rounded mt-2 p-4 w-full">
-        <div className="grid grid-cols-3 gap-4">
+      <div className="absolute-dropdown bg-white border rounded mt-2 p-4 w-[800px] ">
+        <div className="grid grid-cols-4 gap-2 ">
           {item.subcategories.map((subcategory, index) => (
-            <div key={index} className="subcategory-column" >
+            <div key={index} className="subcategory-column py-2" >
               <p className="font-bold mb-2 text-gray-700">
                 {subcategory.label}
               </p>

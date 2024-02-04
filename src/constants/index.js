@@ -347,22 +347,31 @@ export const reviews = [
 
 export const footerLinks = [
   {
-    title: "Products",
+    title: "Brands",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "Just Fit", link: "/" },
+      { name: "Nike", link: "/" },
+      { name: "Under Armour", link: "/" },
+      { name: "Adidas", link: "/" },
+      { name: "Puma", link: "/" },
+    ],
+  },
+  {
+    title: "Sports",
+    links: [
+      { name: "Football", link: "/" },
+      { name: "Basketball", link: "/" },
+      { name: "Rugby", link: "/" },
+      { name: "Swimming", link: "/" },
+      { name: "Wrestling", link: "/" },
     ],
   },
   {
     title: "Help",
     links: [
       { name: "About us", link: "/" },
-      { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
+      { name: "Store Location", link: "/" },
+      { name: "FAQS", link: "/" },
       { name: "Privacy policy", link: "/" },
       { name: "Payment policy", link: "/" },
     ],
@@ -370,7 +379,7 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+      { name: "customer@justfittz.com", link: "mailto:customer@justfittz.com" },
       { name: "+92554862354", link: "tel:+92554862354" },
     ],
   },

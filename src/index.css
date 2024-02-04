@@ -69,25 +69,23 @@
   background-color: rgb(46, 46, 46);
 }
 
-.firstPic{
-  background-color: black;
-  width: 100%;
-}
 
 
 
-.videobgw{
+.videobg{
   position: relative;
   width: 100%;
+  height: 500px;
+  overflow-y: hidden;
   justify-content: center;
   margin: 0px;
   padding: 0px;
 }
 /* Additional styling for removing any potential default margins/paddings on the video container */
-.videobgw video {
+.videobg video {
   display: block;
-  width: 200%;
-  height: 500px;
+  width: 100%;
+  height: auto;
   object-fit: contain;
 }
 
@@ -353,4 +351,22 @@
 /* Add shadow only on hover */
 .rectangular-banner:hover {
   box-shadow: 0 0 20px rgba(235, 38, 38, 0.5); /* Add black light shadow on hover */
+}
+
+
+.firstPic{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow-y: hidden;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.firstPic img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
